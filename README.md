@@ -32,6 +32,10 @@ A arquitetura foi cuidadosamente planejada para fornecer uma API RESTful, com o 
 
 Por fim, fiz o deploy do sistema no Render, onde ele está pronto para ser testado e usado em produção. Foi uma jornada desafiadora, mas gratificante.
 
+Para acessar a API publicada, acesse esse link: https://mks-api-crud.onrender.com/api 
+
+OBS: POR SER UM SERVIDOR GRATUITO O ACESSO A API É MAIS DEMORADO.
+
 ## UserMaster
 
 ```bash
