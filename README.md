@@ -65,7 +65,7 @@ A API desenvolvida é um sistema de gerenciamento de catálogo de filmes com aut
 - TypeORM
 - Swagger
 - Docker
-- Redi
+- Redis
 
 ## Installation
 
