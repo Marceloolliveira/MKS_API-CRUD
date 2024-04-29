@@ -7,12 +7,11 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Documentação com Swagger - Fábrica de Sinapse')
+    .setTitle('Documentação Api CRUD MKS-desenvolvimento-de-sistemas')
     .setDescription(
-      'O Swagger (aka OpenApi) é uma biblioteca muito conhecida no universo backend, estando disponível para diversas linguagens e frameworks. Ela gera um site interno no seu backend que descreve, com muitos detalhes, cada endpoint e estrutura de entidades presentes na sua aplicação.',
+      'A API de Gerenciamento de Filmes é uma plataforma que permite aos usuários realizar operações CRUD (Create, Read, Update, Delete) em uma coleção de filmes. Ela fornece endpoints para criar, visualizar, atualizar e excluir informações sobre filmes, além de possibilitar a busca por filmes específicos.',
     )
     .setVersion('1.0')
-    .addTag('users')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
