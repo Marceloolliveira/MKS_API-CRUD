@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Desenvolvi este sistema mesmo com pouca experiência prévia (tempo de desenvolvimento 3 dias). Foi um desafio emocionante! Utilizei as tecnologias solicitadas, TypeScript, Nest.js, TypeORM, Swagger, Docker, Redis e PostgreSQL para construir uma aplicação robusta  com autenticação JWT que disponibiliza rotas de operaçoes basicas (CRUD) que prove manutenção para um catalogo de filmes.
+
+A arquitetura foi cuidadosamente planejada para fornecer uma API RESTful, com Redis utilizado como cache para melhorar o desempenho. Cada endpoint foi validado para garantir a integridade dos dados.
+
+Por fim, fiz o deploy do sistema no Render, onde ele está pronto para ser testado e usado em produção. Foi uma jornada desafiadora, mas gratificante.
+
 ## UserMaster
 
 ```bash
@@ -34,6 +40,27 @@
     "password": "admin"
 }
 ```
+
+## DescriptionApi
+
+Description
+A API desenvolvida é um sistema de gerenciamento de catálogo de filmes com autenticação JWT (JSON Web Tokens). Ela fornece endpoints para realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados PostgreSQL, garantindo que apenas usuários autenticados possam acessar e manipular os dados.
+
+Funcionalidades Principais:
+Autenticação JWT: A API permite que os usuários se autentiquem por meio de JSON Web Tokens, fornecendo um token de acesso que deve ser enviado em requisições subsequentes para autenticar o usuário.
+CRUD de Catálogo de Filmes: A API oferece endpoints para criar, ler, atualizar e excluir registros de filmes no catálogo. Os endpoints são protegidos por autenticação JWT, garantindo que apenas usuários autenticados possam acessá-los.
+Validação de Dados: Todas as informações fornecidas nas requisições são validadas para garantir a integridade e consistência dos dados armazenados no banco de dados. Isso ajuda a evitar erros e inconsistências nos registros.
+Documentação com Swagger: A API inclui documentação detalhada gerada automaticamente com Swagger, facilitando o entendimento dos endpoints disponíveis e dos parâmetros necessários para cada requisição.
+Uso de Redis para Cache: O Redis é utilizado como cache para otimizar o desempenho da API, armazenando temporariamente dados frequentemente acessados e reduzindo a carga no banco de dados principal.
+Tecnologias Utilizadas:
+TypeScript
+Nest.js
+TypeORM
+Swagger
+Docker
+Redis
+PostgreSQL
+
 
 
 ## Installation
