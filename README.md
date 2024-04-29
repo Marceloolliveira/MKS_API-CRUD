@@ -26,6 +26,16 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## UserMaster
+
+```bash
+{
+    "user": "admin",
+    "password": "admin"
+}
+```
+
+
 ## Installation
 
 ```bash
