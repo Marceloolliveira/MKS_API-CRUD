@@ -26,9 +26,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-Desenvolvi este sistema mesmo com pouca experiência prévia (tempo de desenvolvimento 3 dias). Foi um desafio emocionante! Utilizei as tecnologias solicitadas, TypeScript, Nest.js, TypeORM, Swagger, Docker, Redis e PostgreSQL para construir uma aplicação robusta  com autenticação JWT que disponibiliza rotas de operaçoes basicas (CRUD) que prove manutenção para um catalogo de filmes.
+Desenvolvi este sistema mesmo com pouca experiência prévia (tempo de desenvolvimento de 3 dias). Foi um desafio emocionante! Utilizei as tecnologias solicitadas: TypeScript, Nest.js, TypeORM, Swagger, Docker, Redis e PostgreSQL para construir uma aplicação robusta com autenticação JWT. Esta aplicação disponibiliza rotas de operações básicas (CRUD) para manutenção de um catálogo de filmes.
 
-A arquitetura foi cuidadosamente planejada para fornecer uma API RESTful, com Redis utilizado como cache para melhorar o desempenho. Cada endpoint foi validado para garantir a integridade dos dados.
+A arquitetura foi cuidadosamente planejada para fornecer uma API RESTful, com o Redis utilizado como cache para melhorar o desempenho. Cada endpoint foi validado para garantir a integridade dos dados.
 
 Por fim, fiz o deploy do sistema no Render, onde ele está pronto para ser testado e usado em produção. Foi uma jornada desafiadora, mas gratificante.
 
